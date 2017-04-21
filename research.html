@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Miguel Bessa || Caltech || Northwestern University || University of Porto</title>
+	<meta name="Robots" content="index,follow" />
+	<meta name="description" content="Personal web page of Miguel Bessa at Caltech" />
+	<meta name="keywords" content="Computational mechanics" />
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tools.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function() { anim(); $(".scrollable").scrollable({ }); });
+	</script>
+	<script type="text/javascript" src="js/jquery.fancybox-1.3.2.pack.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".items a").fancybox({
+				'titlePosition'		: 'inside',
+				'overlayColor'		: '#000',
+				'overlayOpacity'	: 0.9
+			});
+		});
+	</script>
+	<script type="text/javascript" src="js/pitch.js"></script>
+	<script type="text/javascript">
+		/* 
+		
+		COUNTDOWN
+		-------------------------------------------------------------------
+		replace UTC with your time zone (eg. UTC+01 for Paris)
+		list of time zone codes: http://en.wikipedia.org/wiki/Time_zone#UTC
+
+
+		Counter(new Date("Jul 31 2016 18:00:00 UTC-06"));
+		var done_message = "Got it! Or maybe not...";
+
+		*/
+		
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
+	<link rel="stylesheet" href="images/fancybox/jquery.fancybox-1.3.2.css" type="text/css" media="screen" />
+	
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-67068104-1', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
+	<!-- End Google Analytics -->
+</head>
+<body id="body_newpages">
+	<div id="content">
+	
+		<!-- top -->
+		<div id="top">
+			<h1 id="logo">M.A.<span>Bessa</span></h1>
+
+			<ul id="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a class="current" href="research.html">Research</a></li>
+				<li><a href="Documents/CV_MiguelBessa.pdf">CV</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="codes.html">Codes</a></li>
+			</ul>
+		</div>
+		<!-- /top -->
+		
+		<!-- pitch -->
+		<div id="pitch2">
+			<h1 id="newpage_title">Research Publications</h1>
+		</div>
+		<!-- /pitch -->		
+		
+		<!-- main text -->		
+		<div id="main2">
+
+			<h3>Selected publications</h3>
+			
+			<h4>Data-driven computational framework for the discovery of materials and structures</h4>
+			<h5><a href=https://authors.elsevier.com/a/1UvX2AQEIdpAp>[Article in Computer Methods in Applied Mechanics and Engineering, 2017]</a></h5>
+			<div style="text-align: center">
+			<a href="research_images/ICME_framework.jpg" title="Data-driven computational framework."><img src="research_images/ICME_framework.jpg" alt="Image" width="80%" height="" /></a>
+			</div>
+			<p>General framework using <strong>machine learning</strong> to discover new models, materials and structures.
+			The framework (optionally) includes our new reduced order model called "Self-consistent Clustering Analysis" (SCA),
+			so that machine learning can be used to solve complex engineering problems (plasticity, damage, etc.).
+			</p>
+			
+			<h4>New numerical method: Self-consistent clustering analysis</h4>
+			<h5><a href=http://www.sciencedirect.com/science/article/pii/S0045782516301499>[Article in Computer Methods in Applied Mechanics and Engineering, 2016]</a></h5>
+			<div style="text-align: center">
+			<a href="research_images/SCA_schematic.jpg" title="Flowchart summarizing the self-consistent clustering analysis method."><img src="research_images/SCA_schematic.jpg" alt="Image" width="80%" height="" /></a>
+			</div>
+			<p>One of the major challenges in applying machine learning for data-driven discovery of materials
+			and structures was the computational time needed to generate high-fidelity data for complex phenomena
+			such as plasticity and damage. This longstanding challenge is addressed by including our new method
+			called "<strong>self-consistent clustering analysis</strong>" (SCA) in the new data-driven computational framework.
+			</p>			
+			<!-- <div style="text-align: center">
+			<a href="research_images/SCA_results.jpg" title="Response of the two-dimensional reduced RVE under the loading
+path defined in (a)"><img src="research_images/SCA_results.jpg" alt="Image" width="80%" height="" /></a>
+			</div> -->			
+
+			<h3>Other relevant work</h3>		
+			
+			<h4>Polymer physics: Atomistic to continuum prediction of the epoxy quasi-static thermo-plastic behavior</h4>
+			<h5><a href=http://pubs.acs.org/doi/abs/10.1021/acs.macromol.5b01236>[Article in Macromolecules, 2015]</a></h5>
+			<div style="text-align: center">
+			<a href="research_images/epoxy_kinking_chain.jpg" title="Weak to Strong transition in XFEM"><img src="research_images/epoxy_kinking_chain.jpg" alt="Image" width="80%" height="" /></a>
+			</div>
+			<p>Nano-kinking of the polymer chains is the mechanism that drives plasticity in highly cross-linked glassy polymers  such as epoxies (see figure
+			above). We wanted to find the quasi-static thermo-plastic behavior of a highly cross-linked epoxy material from molecular dynamics simulations.
+			This is still an open area of research as molecular dynamics simulations are performed with strain-rates that are orders of magnitude larger than
+			the ones occurring in macroscopic experiments. In this work, we proposed a simple yet powerful procedure to obtain the complete plastic behavior
+			of these materials at macroscopic conditions for different temperatures by using the Argon theory introduced in 1972. </p>
+			<p>The figures below show (a) the yield surfaces obtained from molecular dynamics and the predicted quasi-static yield surface for the macro-continuum model;
+			and (b) the tensile, compressive and shear stress-strain curves for the molecular dynamics simulations and the macro-continuum model.</p>
+			<a href="research_images/MD_epoxy_yieldSurf.jpg" title="Weak to Strong transition in XFEM"><p style="float: left; font-size: 9pt; text-align: center; width: 45%; margin-right: 1%; margin-bottom: 0.5em;"><img src="research_images/MD_epoxy_yieldSurf.jpg" alt="Image" style="float: left" width="100%" height="" />(a) Yield surfaces generated from Molecular Dynamics and predicted quasi-static yield surface</p></a>
+			<a href="research_images/MD_epoxy_compCurves.jpg" title="Weak to Strong transition in XFEM"><p style="float: right; font-size: 9pt; text-align: center; width: 45%; margin-right: 1%; margin-bottom: 0.5em;"><img src="research_images/MD_epoxy_compCurves.jpg" alt="Image" style="float: right" width="100%" height="" />(b) Macro-continuum and molecular dynamics tensile, compressive and shear stress-strain curves</p></a>
+			<p style="clear: both;">			
+			
+			<h4>Meshfree: Including peridynamics in the meshfree family</h4>
+			<h5><a href=http://link.springer.com/article/10.1007/s00466-013-0969-x>[Article in Computational Mechanics, 2014]</a></h5>
+			<div style="text-align: center">
+			<a href="research_images/meshfree_unification.jpg" title="Weak to Strong transition in XFEM"><img src="research_images/meshfree_unification.jpg" alt="Image" width="80%" height="" /></a>
+			</div>
+			<p>In this article we unified different strong and weak form meshfree methods by deriving them from the equation shown above. Moreover,
+			the state-based Peridynamics method introduced by Silling et al. in 2007 was also unified with the other meshfree methods such as the Reproducing Kernel
+			Particle Method introduced by Liu et al. in 1995. A modification to Peridynamics for usage with non-uniform grids was also proposed. </p>	
+			
+			<h4>Composites at micro-scale: High-fidelity micro-scale simulations</h4>
+			<h5><a href=http://www.sciencedirect.com/science/article/pii/S026382231500728X>[Article in Composite Structures, 2015]</a></h5>
+			<div style="text-align: center">
+			<video width="100%" height="" controls>
+			<!-- <video width="480" height="320" controls> -->
+  			<source src="research_videos/kinking_slow_smallVideo.mp4" type="video/mp4">
+			Three-dimensional kink band formation in polymer matrix composites.
+			</video>
+			</div>
+			<p>A new three-dimensional micromechanical model in great agreement with experimental data for different load cases. The video shows the first of its kind three-dimensional
+			simulation of the most complex failure mode of a fiber-reinforced composite material: kink band formation due to longitudinal compressive loading. </p>
+			
+			<h4>Composites at macro-scale: Simulation of fracture of composite laminates</h4>
+			<h5><a href=http://www.sciencedirect.com/science/article/pii/S0167663612002128>[Article in Mechanics of Materials, 2013]</a></h5>
+			<div style="text-align: center">
+			<video width="100%" height="" controls>
+  			<source src="research_videos/output_video.mp4" type="video/mp4">
+			</video>
+			</div>
+			<p>Macroscopic fracture plane prediction by embedding the Smeared Crack Model proposed by Bazant et al. in 1988 with the cohesive damage law proposed by Camanho et al. in 2003.
+			Good agreement with the experimental results for different off-axis compression tests of advanced composite laminates was achieved, as can be seen
+			<a href="research_images/SCM_macro_composite.jpg" title="Smeared crack model for composites">here</a>. </p>
+			<!-- <div style="text-align: center">
+			<a href="research_images/SCM_macro_composite.jpg" title="Weak to Strong transition in XFEM"><img src="research_images/SCM_macro_composite.jpg" alt="Image" width="40%" height="" /></a>
+			</div> -->
+			
+			<h4>XFEM: weak to strong discontinuties transition</h4>
+			<h5><a href=http://onlinelibrary.wiley.com/doi/10.1002/nme.4995/abstract>[Article in International Journal for Numerical Methods in Engineering, 2015]</a></h5>
+			<div style="text-align: center">
+			<a href="research_images/2Dtransition.jpg" title="Weak to Strong transition in XFEM"><img src="research_images/2Dtransition.jpg" alt="Image" width="80%" height="" /></a>
+			</div>
+			<p>The eXtended Finite Element Method (XFEM) developed by Belytschko and co-workers in 1999 has been very successful in modeling different types of material
+			discontinuities: cracks and interfaces. These discontinuities are treated differently by using two different enrichment functions. In this work we
+			proposed a method to deal with the transition between these two discontinuities. This transition can occur in two directions: 1) from a material interface
+			to a crack due to interface debonding; 2) from a crack to a material interface due to material healing.</p>	
+			
+			<!-- 			
+			<h3> Side projects </h3>
+			<h4>Cell mechanics: Platelet formation via microbuckling</h4>
+			<!-- <h5>[Article in preparation]</h5> - ->
+			<div style="text-align: center">
+			<video width="60%" height="" controls>
+  			<source src="research_videos/Platelet_formation_Water.mp4" type="video/mp4">
+			Platelet formation via microbuckling of inner ring.
+			</video>
+			</div>
+			<p>Modeling platelet formation via microbuckling of the Marginal Band (a ring composed by a few microtubules) within the cell membrane. The numerical model
+			predicts two instabilities occurring. To date only the first instability was experimentally observed, see below (experimental video from
+			Diagouraga et al., J. Cell Biol. Vol. 204 No. 2  177–185): </p>	
+			<div style="text-align: center">
+			<video width="90%" height="" controls>
+			<source src="research_videos/Platelet_formation_experiments.mp4" type="video/mp4">
+			</video>
+			</div> 
+			
+			<!-- <h3>Generalized continuum theories </h3> - ->
+			<h4>Generalized continuum theories: Metal cutting simulation with multiresolution continuum theory</h4>
+			<!-- <h5>[in preparation]</h5> - ->
+			<div style="text-align: center">
+			<a href="research_images/MCT_metal_cutting.jpg" title="Weak to Strong transition in XFEM"><img src="research_images/MCT_metal_cutting.jpg" alt="Image" width="80%" height="" /></a>
+			</div>
+			<p>This figure presents different metal cutting simulations obtained from the multiresolution theory at the same stage of deformation.
+			Here the influence of the additional constitutive equation introduced by the multiresolution continuum theory is shown by observing that
+			an increase on the length scale parameter <i>l</i> causes a wider shear band. </p>
+			
+			<p>The multiresolution theory developed by Liu and co-workers in 2006 is a generalization of the micromorphic continuum theory proposed by Eringen in the 60s.
+			This method allows to incorporate extra constitutive equations in an attempt to describe additional physics of the material. In addition, the theory includes
+			a strain gradient term that allows to control the strain localization zone when the material is subjected to intense deformation, as in the example of this
+			article: metal cutting. </p>
+			
+			-->
+			
+		</div>
+		<!-- /main text -->
+	</div>
+</body>
+</html>
