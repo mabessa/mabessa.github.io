@@ -234,8 +234,8 @@ h3 {
 
 /* main content (left side) */
 #main { 
-	float: right; 
-	width: 600px; /* 500px */
+	float: left; 
+	width: 350px; /* 500px */
 	margin: 0 0 40px; 
 }
 #main p strong {
@@ -245,7 +245,14 @@ h3 {
 /* side */
 #side { 
 	float: left; 
-	width: 165px; /* 265px */
+	width: 195px; /* 265px */
+	margin: 0 0 40px; 
+}
+
+/* right side */
+#r_side { 
+	float: right; 
+	width: 220px; /* 265px */
 	margin: 0 0 40px; 
 }
 
