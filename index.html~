@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Miguel A. Bessa @ TU Delft</title>
+	<title>Miguel A. Bessa - TU Delft</title>
 	<meta name="Robots" content="index,follow" />
 	<meta name="description" content="Personal web page of Miguel Bessa at TU Delft" />
 	<meta name="keywords" content="Computational mechanics, Machine learning, Materials, Structures, Numerical Methods" />
@@ -84,7 +84,7 @@
 		<div id="side">
 			<!-- Photo -->
 			<div style="text-align: center">
-			<a href="MyPictures/Miguel-Bessa.jpg" title="Miguel A. Bessa"><img src="MyPictures/Miguel-Bessa.jpg" alt="Image" width="90%" height="" /></a>
+			<a href="MyPictures/Miguel-Bessa.jpg" title="Miguel A. Bessa"><img src="MyPictures/Miguel-Bessa.jpg" alt="Image" width="70%" height="" /></a>
 			</div>
 			<!-- /Photo -->				
 		</div>
@@ -102,13 +102,20 @@
 		<div id="main">		
 		
 			<h3>Research Interests</h3>
-			<p><strong>Computational mechanics and materials engineering</p>
-               		<p> Development of numerical methods. Machine learning for solids and structures. Modeling of the behavior of solids across different scales: nano, micro and macro-mechanics. </p>
-         <p><strong>Other areas of interest</strong></p>
-         <p> Quantum mechanics and polymer physics. </p>
+			<p><strong>Computational mechanics and materials science</p>
+			<ul>
+			  <li>Development of numerical methods.</li>
+  				<li>Machine learning and genetic optimization.</li>
+  				<li>Multi-scale modeling of materials and structures.</li>
+			</ul>
                		
-			<p><a class="more" href="research.html">Read More</a></p>
 			<br/>
+			
+			<h3>Research Highlight</h3>
+			<p>Development of an Artificial Intelligence framework for discovering new
+			materials and structures breaking the "curse of dimensionality".</p>
+			
+			<!-- <p><a class="more" href="research.html">Read More</a></p> -->
 			
 			<!-- <h3>Outreach</h3>
 			<!-- <p><strong>USACM/NU </strong></p> - ->
@@ -120,19 +127,19 @@
 		<!-- /main (right side) -->
 
 		<!-- include bottom bar -->		
-		<div id="main2">		
+		<!-- <div id="main2">		
 						
-		</div>
+		</div> -->
 		<!-- /include bottom bar -->
 
 		<!-- Research Highlight -->
       <div id="main2">		
 		
-		   <h3><center>Research Highlight</center></h3>
+		   <!-- <h3><center>Research Highlight</center></h3> -->
 		
-			<h4><center>A general computational framework for the discovery of materials and structures
-         via machine learning.</center> </h4>
-			<h5><center><a href=http://www.sciencedirect.com/science/article/pii/S0045782516314803>[Article in Computer Methods in Applied Mechanics and Engineering, 2017]</a></center></h5>
+			<!-- <h4><center>A general computational framework for the discovery of materials and structures
+         via machine learning.</center> </h4> -->
+			<h4><center><a href=http://www.sciencedirect.com/science/article/pii/S0045782516314803>A framework for data-driven analysis of materials under uncertainty: Countering the curse of dimensionality</a></center></h4>
 			<div style="text-align: center">
 		   <a href="research_images/ICME_framework.jpg" title="Data-driven computational framework."><img src="research_images/ICME_framework.jpg" alt="Image" width="80%" height="" /></a>
 			</div>	
