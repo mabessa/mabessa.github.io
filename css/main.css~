@@ -118,7 +118,7 @@ h3 {
 	height: 50px;
 	padding: 80px 0 0;
 	margin: 0 0 60px;
-	background: url(../images/pitch_alternative.png) no-repeat;
+	background: url(../images/pitch_alternative2.png) no-repeat;
 }
 
 /* <<<<<<<<<<<<<<< ADDED BY ME >>>>>>>>>>>>>>> */
@@ -129,7 +129,7 @@ h3 {
 }
 
 #body_newpages { 
-	background: #f4f4f4 url(../images/bg_newpages_alternative.png) repeat-x;
+	background: #f4f4f4 url(../images/bg_newpages_alternative2.png) repeat-x;
 }
 
 #body_index { 

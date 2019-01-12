@@ -11,6 +11,8 @@
 img { border: 0; }
 .clear { clear: both; }
 
+.tab { margin-left: 40px; }
+
 /* highlighting color */
 ::selection { background: #EAA0FA; /* Safari */ }
 ::-moz-selection { background: #EAA0FA; /* Firefox */ }
@@ -279,3 +281,5 @@ h3 {
 	color: #999;
 	text-shadow: 1px 1px 1px #fff;
 }
+
+
